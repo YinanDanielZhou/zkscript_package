@@ -51,8 +51,8 @@ class RefTxLockingKey:
     minus_delta: list[int]
     precomputed_l_out: list[int]
     gamma_abc_without_l_out: list[list[int]]
-    gradients_pairings: list[list[list[list[int]]]] | None
     sighash_flags: SIGHASH
+    gradients_pairings: list[list[list[list[int]]]] | None = None
     has_precomputed_gradients: bool = False
     use_proj_coordinates: bool = False
 

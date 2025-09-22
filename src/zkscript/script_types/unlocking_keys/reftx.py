@@ -87,12 +87,12 @@ class RefTxUnlockingKey:
         A: list[int],  # noqa: N803
         B: list[int],  # noqa: N803
         C: list[int],  # noqa: N803
-        gradients_pairings: list[list[list[list[int]]]] | None,
-        gradients_multiplications: list[list[list[list[int]]]] | None,
-        max_multipliers: list[int] | None,
-        gradients_additions: list[list[int]] | None,
         inverse_miller_output: list[int],
-        gradient_precomputed_l_out: list[int] | None,
+        max_multipliers: list[int] | None,
+        gradients_pairings: list[list[list[list[int]]]] | None = None,
+        gradients_multiplications: list[list[list[list[int]]]] | None = None,
+        gradients_additions: list[list[int]] | None = None,
+        gradient_precomputed_l_out: list[int] | None = None,
         has_precomputed_gradients: bool = True,
         use_proj_coordinates: bool = False,
     ) -> Self:
