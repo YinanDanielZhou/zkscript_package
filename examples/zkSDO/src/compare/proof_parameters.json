@@ -1,0 +1,29 @@
+{
+  "root_hex": "54f90300d9722a43b1047ea5f8500a33d45f7f25996286823d9528c07cf10a61",
+  "root_2_hex": "321a136df4ac6a5201cfc42419fddcf7e903f768566145d6d8bb7c17cd34cc3b",
+
+  "leaf_preimage": 49,
+  "path_hashes": [
+    "8a106783b4d8706a50f67bcf3a4e277f1ab159a6c895a31e87f923a865584416",
+    "42dbeeb4eb5d41bbdc93732c6a87ab3241ee03f44a0780a52ddf831f5fd88b53",
+    "ccfea300216cc8686dacd619886ad89b3f0e6b2fe620c7b2c8806b284d4157b8",
+    "c15280932875422b745eb3e48601089e54e67add10afa8e17ccefa7baaf552fa",
+    "c693b27fb08051258f23366441be51cd2d6f846c8ad87dadc85bbe9f686a3bd1"
+  ],
+  "path_dirs": [false, true, false, false, true],
+  "skip_hashing": [false, false, false, false, false],
+
+  "leaf_preimage_2": -129,
+  "path_hashes_2": [
+    "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+    "42dbeeb4eb5d41bbdc93732c6a87ab3241ee03f44a0780a52ddf831f5fd88b53",
+    "ccfea300216cc8686dacd619886ad89b3f0e6b2fe620c7b2c8806b284d4157b8",
+    "c15280932875422b745eb3e48601089e54e67add10afa8e17ccefa7baaf552fa",
+    "c693b27fb08051258f23366441be51cd2d6f846c8ad87dadc85bbe9f686a3bd1"
+  ],
+  "path_dirs_2": [false, true, false, false, true],
+  "skip_hashing_2": [false, false, false, false, true],
+
+  "operator": 3,
+  "_comment_on_operator": "0 : <, 1 : <=, 2 : >, 3 : >=, 4 : ==, 5 : !="
+}
